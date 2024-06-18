@@ -1,0 +1,11 @@
+# Build output
+build
+
+# Misc
+.~lock*
+
+
+# Setup script garbage
+package.json
+package-lock.json
+node_modules
