@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 # Set the project name
-project(<PROJ>)
+project(mcsmp-supervisor)
 
 # Add warnings to GCC and clang
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")

@@ -8,7 +8,7 @@
             "name": "debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/src/<EXEC>/<EXEC>",
+            "program": "${workspaceRoot}/build/src/mcsuper/mcsuper",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "build-debug"
         }

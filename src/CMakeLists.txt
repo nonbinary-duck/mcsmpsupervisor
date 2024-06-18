@@ -1,1 +1,1 @@
-add_subdirectory(<EXEC>)
+add_subdirectory(mcsuper)

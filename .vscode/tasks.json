@@ -17,7 +17,7 @@
             "label": "fresh-build & run",
             "group": "build",
             "type": "shell",
-            "command": "cd ${workspaceFolder} && rm -r build; mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j40 && ./src/<EXEC>/<EXEC>"
+            "command": "cd ${workspaceFolder} && rm -r build; mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j40 && ./src/mcsuper/mcsuper"
         },
         {
             "label": "build",
@@ -35,7 +35,7 @@
             "label": "build & run",
             "group": "build",
             "type": "shell",
-            "command": "cd ${workspaceFolder} mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j40 && ./src/<EXEC>/<EXEC>"
+            "command": "cd ${workspaceFolder} mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j40 && ./src/mcsuper/mcsuper"
         }
     ]
 }
